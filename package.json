@@ -1,0 +1,34 @@
+{
+  "name": "user-api",
+  "version": "1.0.0",
+  "description": "API for users management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kike-chapin/user-api.git"
+  },
+  "keywords": [
+    "node",
+    "API"
+  ],
+  "author": "Enrique Hurtarte Juarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kike-chapin/user-api/issues"
+  },
+  "homepage": "https://github.com/kike-chapin/user-api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/chai-http": "^4.2.0",
+    "chai": "*",
+    "chai-http": "^4.4.0",
+    "esm": "*",
+    "mocha": "*"
+  }
+}
